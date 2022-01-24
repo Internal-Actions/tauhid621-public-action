@@ -1,8 +1,8 @@
-name: 'Very Simple Hello World'
-description: 'Prints hello world'
+name: 'Very Simple dir1 Hello World'
+description: 'Prints dir1 hello world'
 
 runs:
   using: "composite"
   steps:
-    - run: echo Hello world!
+    - run: echo Hello dir1 world!
       shell: bash
